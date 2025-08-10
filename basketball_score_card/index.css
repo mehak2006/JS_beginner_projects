@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'cursed_timer';
-    src: url('/CursedTimerUlil-Aznm.ttf') format('truetype');
+    src: url('./CursedTimerUlil-Aznm.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
