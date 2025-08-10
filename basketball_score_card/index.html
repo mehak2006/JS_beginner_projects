@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class = "column">
+                <h3>HOME</h3>
+                <div class = "score" id="score_team1"><p id = "team_one">0</p></div>
+                <div class = "btn">
+                    <button onclick="addPoints('team1', 1)">+1</button>
+                    <button onclick="addPoints('team1', 2)">+2</button>
+                    <button onclick="addPoints('team1', 3)">+3</button>
+                </div>
+            </div>
+            <div class = "column">
+                <h3>GUEST</h3>
+                <div class= "score" id="score_team2"><p id = "team_two">0</p></div>
+                <div class = "btn">
+                    <button onclick="addPoints('team2', 1)">+1</button>
+                    <button onclick="addPoints('team2', 2)">+2</button>
+                    <button onclick="addPoints('team2', 3)">+3</button>
+                </div>
+            </div>
+        </div>
+        <div id = "new_game">
+            <button onclick = "newGame()">New Game</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
