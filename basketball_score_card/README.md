@@ -1,19 +1,47 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+# 🏀 Basketball Score Card
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+A simple basketball score tracker built using **HTML**, **CSS**, and **JavaScript**.  
+This project allows you to keep track of the scores for two teams, with buttons to add points quickly.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+---
 
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+## 📸 Preview
 
-Happy Coding!
+
+---
+
+## ✨ Features
+- Track scores for **Home** and **Guest** teams.
+- Buttons to increment scores by **+1**, **+2**, or **+3** points.
+- Custom digital-style font for scoreboard display.
+- Clean and responsive layout.
+
+---
+
+## 🛠️ Technologies Used
+- **HTML5**
+- **CSS3**
+- **JavaScript (ES6)**
+- **Custom TTF Font** for scoreboard
+
+---
+
+## 📂 How to Use
+1. Clone or download the repository.
+2. Open `index.html` in your browser.
+3. Use the buttons to update scores for each team.
+
+---
+
+## 🎓 Acknowledgements
+This project was created as part of a **Scrimba** tutorial:  
+[Scrimba Frontend Developer Career Path](https://scrimba.com/)
+
+The original idea and design are from Scrimba’s basketball scorecard challenge.  
+I built this project while following the course.
+
+---
+
+## 📄 License
+This project is for learning purposes only.  
+The design and concept are credited to **Scrimba**.
