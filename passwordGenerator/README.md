@@ -1,5 +1,6 @@
 🔐 Random Password Generator
 
+Deployed site: https://password-generator-jsbasic.netlify.app/
 
 This is a simple Random Password Generator built using HTML, CSS, and JavaScript.
 It generates two random passwords at once, allows the user to set the desired password length, and provides a one-click copy-to-clipboard feature.
@@ -34,6 +35,7 @@ It generates two random passwords at once, allows the user to set the desired pa
         Click the Generate button to create two random passwords.
 
         Click on any password to copy it to your clipboard.
+
 
 
 🙏 Acknowledgements
