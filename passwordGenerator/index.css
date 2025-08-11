@@ -1,0 +1,87 @@
+@font-face {
+    font-family : "Karla";
+    src : url('/Karla-VariableFont_wght.ttf') format('truetype')
+}
+@font-face {
+    font-family : "Inter";
+    src: url('/Inter-VariableFont_opsz,wght.ttf') format('truetype')
+}
+body {
+    margin: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    background: #1c1c1c;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+    background: #1f2937;
+    margin: 30px;
+    padding:  50px 40px; 
+}
+.highlight{
+    color: #ffffff;
+}
+.heading{
+    font-family: Karla;
+    color: #4adf86;
+    font-weight:800;
+    font-size: 40px;
+}
+.subtext{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 200;
+    color: #bebec4;
+}
+#generate-button {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 191px;
+    height: 42px;
+    border-radius: 6px;
+    padding-top: 9px;
+    padding-right: 17px;
+    padding-bottom: 9px;
+    padding-left: 15px;
+    gap: 12px;
+    color: #ffffff;
+    background: #10b981;
+    border: none;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+#horizontal {
+    border: none;
+    height: 1px;
+    background-color: #2F3E53;
+}
+#password{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    gap: 5px;
+}
+.btn{
+    width: 211px;
+    height: 39px;
+    border-radius: 6px;
+    margin: 5px;
+    background: #273549;
+    border: none;
+    color: #55f991;
+    text-shadow: #3b8b68;
+    padding: 5px;
+}
+#length-input{
+    width:  100px;
+    margin: 10px;
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+}
