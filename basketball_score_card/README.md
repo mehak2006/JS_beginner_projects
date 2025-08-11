@@ -6,8 +6,7 @@ This project allows you to keep track of the scores for two teams, with buttons 
 ---
 
 ## 📸 Preview
-
-
+    ![Basketball Score Card Screenshot](./image.png)
 ---
 
 ## ✨ Features
