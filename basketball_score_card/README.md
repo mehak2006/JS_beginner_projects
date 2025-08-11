@@ -1,5 +1,7 @@
 # 🏀 Basketball Score Card
 
+Deployed site: https://scorecard-basketball-1.netlify.app/
+
 A simple basketball score tracker built using **HTML**, **CSS**, and **JavaScript**.  
 This project allows you to keep track of the scores for two teams, with buttons to add points quickly.
 
