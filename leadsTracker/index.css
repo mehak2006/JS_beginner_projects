@@ -20,9 +20,16 @@ button {
     border: 1px solid #5f9341;
     font-weight: bold;
 }
+button:active:not(#delete-btn) {
+    background-color: #3a6429; 
+}
+
 #delete-btn {
     color: #5f9341;
     background : #ffffff;
+}
+#delete-btn:active {
+    background-color: #cccccc; /* darker grey */
 }
 
 ul {
