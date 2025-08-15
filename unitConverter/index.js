@@ -39,3 +39,17 @@ function render(num){
     
     `
 }
+// dark mode
+
+const toggleThemeBtn = document.getElementById("toggle-theme");
+const conversionsSection = document.querySelector(".conversions");
+
+toggleThemeBtn.addEventListener("click", function () {
+    conversionsSection.classList.toggle("dark-mode");
+
+    if (conversionsSection.classList.contains("dark-mode")) {
+        toggleThemeBtn.textContent = "☀ Light Mode";
+    } else {
+        toggleThemeBtn.textContent = "🌙 Dark Mode";
+    }
+});
