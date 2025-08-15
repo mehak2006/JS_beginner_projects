@@ -31,7 +31,7 @@ This project was built as part of my learning journey following the [Scrimba Fro
 
 | Light Mode | Dark Mode |
 |------------|-----------|
-| *(Add screenshot)* | *(Add screenshot)* |
+| *(![Light Mode Screenshot](lightMode.png) )* | *(![Dark Mode Screenshot](darkMode.png) )* |
 
 ---
 
