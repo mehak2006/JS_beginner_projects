@@ -1,5 +1,7 @@
 # 📌 Leads Tracker PWA
 
+Deployed Site: https://leadtrackerpwawebapp.netlify.app/
+
 A **Progressive Web App** that lets you save and track website leads (URLs) for quick access — accessible across devices with real-time cloud sync.  
 Built with **HTML, CSS, JavaScript, and Firebase Realtime Database**, inspired by the [Scrimba JavaScript course](https://scrimba.com).
 
