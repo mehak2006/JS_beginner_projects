@@ -12,8 +12,10 @@ const inputEl = document.getElementById("input-el")
 buttonEl.addEventListener("click", function(){
     render(inputEl.value)
 })
+console.log(inputEl.value)
 function render(num){
     // 20 meters = 65.616 feet | 20 feet = 6.096 meters
+    if(!num)num = 0
     const feet = (num * 3.281).toFixed(3)
     const meters = (num / 3.281).toFixed(3)
     lengthEl.innerHTML = 
