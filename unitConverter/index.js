@@ -48,8 +48,8 @@ toggleThemeBtn.addEventListener("click", function () {
     conversionsSection.classList.toggle("dark-mode");
 
     if (conversionsSection.classList.contains("dark-mode")) {
-        toggleThemeBtn.textContent = "☀ Light Mode";
+        toggleThemeBtn.textContent = "☀";
     } else {
-        toggleThemeBtn.textContent = "🌙 Dark Mode";
+        toggleThemeBtn.textContent = "🌙";
     }
 });
