@@ -1,7 +1,7 @@
 @font-face{
     font-family : Inter;
     src : 
-    url("/Inter-VariableFont_opsz,wght.ttf") format("truetype")
+    url("Inter-VariableFont_opsz,wght.ttf") format("truetype")
 }
 body {
     margin: 0;
@@ -50,7 +50,6 @@ input{
     color: #ffffff;
     font-family: Inter;
     font-weight: 800;
-    font-style: Extra Bold;
     font-size: 58px;
     text-align: center;
 }
