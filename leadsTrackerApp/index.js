@@ -5,7 +5,7 @@ const firebaseConfig = {
 }
 const app = initializeApp(firebaseConfig)
 const database = getDatabase(app)
-let myLeads = []
+
 const inputEl = document.getElementById("input-el")
 const inputBtn = document.getElementById("input-btn")
 const ulEl = document.getElementById("ul-el")
@@ -16,14 +16,13 @@ const deleteBtn = document.getElementById("delete-btn")
 
 
 inputBtn.addEventListener("click", function() {
-    myLeads.push(inputEl.value)
+    console.log(inputEl.value)
     inputEl.value = ""
-    render(myLeads)
+    
 })
 
 deleteBtn.addEventListener("dblclick", function(){
-    myLeads = []
-    render(myLeads)
+  
 })
 
 
