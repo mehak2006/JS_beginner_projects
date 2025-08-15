@@ -39,5 +39,6 @@ Special thanks to the Scrimba team for their amazing interactive coding platform
 ## 📄 Certificates
 
 - [Scrimba JavaScript Course Certificate](certificates\scrimba-js.pdf)  
+- [Scrimba HTML and CSS Course Certificate](certificates\scrimba-htmlCSS.pdf)  
 
 ---
