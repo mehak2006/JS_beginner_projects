@@ -5,6 +5,7 @@ Deployed Site: https://leadtrackerpwawebapp.netlify.app/
 A **Progressive Web App** that lets you save and track website leads (URLs) for quick access — accessible across devices with real-time cloud sync.  
 Built with **HTML, CSS, JavaScript, and Firebase Realtime Database**, inspired by the [Scrimba JavaScript course](https://scrimba.com).
 
+-Right now, this works for single user only
 ---
 
 ## 🚀 Features
@@ -15,6 +16,17 @@ Built with **HTML, CSS, JavaScript, and Firebase Realtime Database**, inspired b
 - **Delete all leads** with a double-click (for quick cleanup).
 - **Clickable links** that open in a new tab.
 - Minimal, responsive design.
+- **Single-user data** — in the current version, multiple people would share the same database path, so the app is intended for use by a single user or trusted group.
+
+---
+## ⚠️ Limitations
+
+- **Single-user only in current version**  
+  The app uses one shared database path for all users. If multiple people use the app, everyone will see and modify the same list of leads.  
+  This makes it suitable for:
+  - Personal use  
+  - A small trusted group who intentionally share leads  
+  To enable **private lists per user**, Firebase Authentication and user-specific database paths would need to be implemented.
 
 ---
 
