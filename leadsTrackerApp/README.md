@@ -40,8 +40,8 @@ Built with **HTML, CSS, JavaScript, and Firebase Realtime Database**, inspired b
 
 ## 📲 Progressive Web App Installation
 
-- **On Mobile**: Open the app → Click “Add to Home Screen” from the browser menu.
-- **On Desktop (Chrome/Edge)**: Click the install icon in the address bar.
+- **On Mobile**: Open the app(deployed site) → Click “Add to Home Screen” from the browser menu.
+- **On Desktop (Chrome/Edge)**: Open the deployed site
 
 
 ---
