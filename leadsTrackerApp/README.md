@@ -1,42 +1,52 @@
-📌 Leads Tracker App
+# 📌 Leads Tracker PWA
 
-A simple Chrome Extension that allows you to save and track website leads (URLs) for quick access.
-Built with HTML, CSS, and JavaScript, following along with the Scrimba JavaScript course.
+A **Progressive Web App** that lets you save and track website leads (URLs) for quick access — accessible across devices with real-time cloud sync.  
+Built with **HTML, CSS, JavaScript, and Firebase Realtime Database**, inspired by the [Scrimba JavaScript course](https://scrimba.com).
 
-🚀 Features
+---
 
-Save the current tab’s URL with one click.
+## 🚀 Features
 
-Manually input and save a URL.
+- **Manually input and save** a URL.
+- **Cloud sync** using Firebase Realtime Database — access your leads anywhere.
+- **Installable** on desktop or mobile devices via site manifest.
+- **Delete all leads** with a double-click (for quick cleanup).
+- **Clickable links** that open in a new tab.
+- Minimal, responsive design.
 
-Persistent storage using localStorage.
+---
 
-Clickable links that open in a new tab.
+## 🛠️ Tech Stack
 
-Simple and minimal design.
+- **HTML**
+- **CSS**
+- **JavaScript**
+- **Firebase Realtime Database**
+- **PWA (Site Manifest + Service Worker)**
 
-🛠️ Tech Stack
+---
 
-HTML
+## 💡 Usage
 
-CSS
+1. **Open the app** in your browser (installable as a PWA for mobile/desktop use).
+2. **Enter a URL** in the input field and click `SAVE INPUT`.
+3. All saved links will appear in the list below.
+4. **Click a link** to open it in a new tab.
+5. **Double-click the delete button** to remove all leads from your list.
 
-JavaScript
+---
 
-Chrome Extensions API
+## 📲 Progressive Web App Installation
 
-Local Storage
+- **On Mobile**: Open the app → Click “Add to Home Screen” from the browser menu.
+- **On Desktop (Chrome/Edge)**: Click the install icon in the address bar.
 
 
-💡 Usage
+---
 
-Enter a URL manually or click SAVE TAB to save the current tab’s URL.
+## 🙏 Acknowledgements
 
-All saved links will appear in a list below.
+- This project was developed following the **Scrimba JavaScript Course** — huge thanks to the Scrimba team for their fantastic interactive learning platform!
+- Firebase integration, PWA support, and cloud sync were added 
 
-Click a link to open it in a new tab.
-
-🙏 Acknowledgements
-
-This project was created as part of the Scrimba JavaScript Course.
-Special thanks to the Scrimba team for their amazing interactive learning platform!
+---
